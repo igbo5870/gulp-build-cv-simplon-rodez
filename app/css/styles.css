@@ -1,1 +1,64 @@
 /* Enjoy !*/
+body{
+	font-size: 12pt; /* 1em */
+	background-color:  #FAFAFA;
+}
+
+/********************************************* 
+ ** En tête de la page : Titre + Photo +    **
+ ** phrases d'accroche + menu de navigation **
+ *********************************************/
+header{
+	text-align: center;
+	color: #123251;
+}
+h1{
+	width: 500px;
+	margin: auto;
+	font-size: 32pt; /* 2.7em*/
+}
+header p {
+	padding-bottom: 1%;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	line-height: 3;
+	height: 50px;
+	list-style: none;
+	background-color: #4A6A8A;
+	color: white;
+}
+
+nav a{
+	display: block;
+	width: 150px;
+	color: white;
+
+}
+
+nav li a:hover, nav li a:focus, nav li a:active {
+	color: #4A6A8A;
+	border: 2px solid #123251;
+	text-decoration-line: none;
+	background-color: white;
+}
+
+nav a:hover{
+	color: white;
+	background-color: #123251;
+}
+.header-accroche{
+	margin: auto;
+	width: 500px;
+}
+.photo{
+	margin-top: 2%;
+	margin-left: 10%;
+	float: left;
+	width: 120px;
+	height: 120px;
+	border: 5px solid #4A6A8A;
+	border-radius: 50%;
+ 	position: left;
+}
