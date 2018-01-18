@@ -124,7 +124,7 @@ nav li a:hover, nav li a:focus, nav li a:active {
 
  /********************************************* 
  ** Section Expérience : Titre + paragraphe  **
- **                      + listes            **
+ ** Section Formation  : + listes            **
  **********************************************/
 .section-expriences_content{
 	width: 900px;
@@ -176,4 +176,26 @@ nav li a:hover, nav li a:focus, nav li a:active {
 	width: 900px;
 	background-color: #4A6A8A;
 	color: white;
+}
+
+ /**************************************************** 
+  ** Section Centre d'intérêt : image + description **
+  ****************************************************/
+.section-interet_content-image{
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.section-interet_content-descript{
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.section-interet img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid #4A6A8A;
+	border-radius: 50%;
 }
