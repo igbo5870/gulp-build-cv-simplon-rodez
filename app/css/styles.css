@@ -1,8 +1,24 @@
 /* Enjoy !*/
+
+/********************************************* 
+ ** Règle générale : ensemble de la page    **
+ **  - titre des section 					**
+ **  - taille de police						**
+ **  - background de la page				**
+ *********************************************/
 body{
 	font-size: 12pt; /* 1em */
 	background-color:  #FAFAFA;
 }
+
+.section-title{
+	text-align: center;
+ 	background-color: #4A6A8A;
+ 	color: white;
+ 	height: 50px;
+ 	line-height: 1.5;
+ 	font-size: 24pt; /* 2em */
+ }
 
 /********************************************* 
  ** En tête de la page : Titre + Photo +    **
@@ -39,15 +55,14 @@ nav a{
 
 nav li a:hover, nav li a:focus, nav li a:active {
 	color: #4A6A8A;
-	border: 2px solid #123251;
+	border: 5px solid #123251;
 	text-decoration-line: none;
 	background-color: white;
+	margin-top: -5px;
+	height: 60px;
+	font-weight: bold;
 }
 
-nav a:hover{
-	color: white;
-	background-color: #123251;
-}
 .header-accroche{
 	margin: auto;
 	width: 500px;
@@ -77,10 +92,29 @@ nav a:hover{
  	width: 900px;
  	text-align: justify;
   }
- .section-a-propos_title{
- 	background-color: #4A6A8A;
- 	color: white;
- 	height: 50px;
- 	line-height: 1.5;
- 	font-size: 24pt; /* 2em */
+
+/********************************************* 
+ ** Section Compétence : Titre + paragraphe **
+ **                      + listes           **
+ *********************************************/
+ .section-competences_content1, .section-competences_content2{
+ 	margin: auto;
+ 	padding-bottom: 3.5%;
+ 	width: 900px;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+.section-competences_content1 h3, .section-competences_content2 h3{
+	background-color: #4A6A8A;
+	color: white;
+	text-align: center;
+}
+ .competence-front, .competence-back, .competence-gestion, .competence-reseaux{
+ 	border: 2px solid #4A6A8A;
+ 	width: 425px;
+ 	height: 300px;
+ }
+
+ .competence-front ul li, .competence-back ul li, .competence-gestion ul li, .competence-reseaux ul li{
+ 	list-style: none;
  }
