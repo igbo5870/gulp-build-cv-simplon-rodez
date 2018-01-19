@@ -11,6 +11,7 @@
     <!-- Place favicon.ico in the root directory -->
     <!--build:css css/styles.min.css-->
     <link href="./css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/fontawesome/web-fonts-with-css/css/fontawesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <!--endbuild-->
   </head>
@@ -194,6 +195,45 @@
                 <p>Hobbie 1  - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio provident, laborum labore, cumque atque quia sed, quod officiis reiciendis libero sequi quaerat. Amet, sed doloribus dolorem! Similique, mollitia sunt debitis.</p>
                 <p>Hobbie 2  - Lorem ipsum dolor sit amet, consectetur adipisicing elit. In soluta beatae alias, delectus libero vitae necessitatibus architecto quam ipsam minus provident culpa dolorum ipsa quibusdam minima eligendi. Repellat, quae, asperiores.</p>
                 <p>Hobbie 3  - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam debitis quaerat praesentium qui dignissimos assumenda tempora dolore quam officia ducimus facilis similique id reiciendis vel, nihil iusto, dolores in.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-contact" id="id_section-contact">
+        <h2 class="section-title">Contact</h2>
+        <div class='section-contact_content'>
+            <div class="section-contact_formulaire">
+                <form action="envoie.php" method="post">
+                    <div>
+                        <label for="nom">Nom : </label>
+                        <input type="text" name ="nom" id="nom" placeholder="Votre nom et prénom" required />
+                    </div>
+                    <div>
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Votre adresse mail" required/>
+                    </div>
+                    <div>
+                        <label for="sujet">Sujet :</label>
+                        <input type="text" id="sujet" name ="sujet" placeholder="" required />
+                    </div>
+                    <div>
+                        <label for="message">Messsage :</label>
+                        <textarea id="message" name ="message" required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit" name="submit" value="Envoyer">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+            <div class="section-contact_info">
+                <p>Adresse postale :</p>
+                <p>Adresse électronique :</p>
+                <p>Numéro de téléphone :</p>
+                <div class="section-contact_resaux">
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+</a>
+                    <a href="#"><img src='' alt='Twitter'/></a>
+                    <a href="#"><img src='' alt='GitHub' /></a>
+                </div>
             </div>
         </div>
     </section>

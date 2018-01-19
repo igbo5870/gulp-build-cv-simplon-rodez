@@ -25,6 +25,7 @@ body{
  ** phrases d'accroche + menu de navigation **
  *********************************************/
 header{
+	
 	text-align: center;
 	color: #123251;
 	/*background-image:url(../images/fond-header_1.png);*/
@@ -137,6 +138,7 @@ nav li a:hover, nav li a:focus, nav li a:active {
 .section-experiences_entreprise{
 	width: 250px;
 	height: 30px;
+	border: 2px solid #4A6A8A;
 	line-height: 2;
 	text-align: center;
 	background-color: #4A6A8A;
@@ -198,4 +200,63 @@ nav li a:hover, nav li a:focus, nav li a:active {
 	width: 100px;
 	border: 2px solid #4A6A8A;
 	border-radius: 50%;
+}
+
+ /**************************************************** 
+  ** Section Contact : formulaire + images          **
+  ****************************************************/
+.section-contact_content{
+	display: flex;
+	justify-content: space-around;
+}
+
+.section-contact_resaux img{
+	height: 50px;
+	width: 50px;
+	border: 2px solid #4A6A8A;
+	border-radius: 50%;
+}
+
+/*Formulaire de contact*/
+form {
+    margin: 0 auto;
+    /*width: 400px;*/
+    padding: 1em;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #efefef;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 0.5em;
 }
